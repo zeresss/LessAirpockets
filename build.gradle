@@ -1,0 +1,22 @@
+plugins {
+	id("fabric-loom").version("1.6-SNAPSHOT")
+	id("maven-publish")
+}
+
+dependencies {
+	minecraft("com.mojang:minecraft:${minecraftVersion}")
+	mappings("net.fabricmc:yarn:${yarnMappings}:v2")
+	modImplementation("net.fabricmc:fabric-loader:${loaderVersion}")
+}
+
+processResources {
+	filesMatching("fabric.mod.json") {
+		expand(
+			"modVersion": modVersion
+		)
+	}
+}
+
+jar {
+	from("LICENSE")
+}
