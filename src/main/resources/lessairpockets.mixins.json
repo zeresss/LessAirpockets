@@ -1,0 +1,12 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "com.zer.lessairpockets.mixin",
+    "mixins": [
+        "CanPlaceAtMixin",
+        "NewUnplaceable"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
