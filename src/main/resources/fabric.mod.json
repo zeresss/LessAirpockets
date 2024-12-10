@@ -3,7 +3,7 @@
 	"id": "lessairpockets",
 	"version": "${modVersion}",
 	"name": "Less Airpockets",
-	"description": "This mod disallows underwater block placement for many vanilla blocks",
+	"description": "This mod disallows placement in fluid for many vanilla blocks",
 	"authors": [
 		"zer"
 	],
