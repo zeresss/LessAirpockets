@@ -11,6 +11,3 @@ A: I do not plan to add support for any other loader other than Fabric and Quilt
 
 **Q: Is X mod compatible with this mod?**  
 A: If X mod does not modify waterlogged property it should be compatible.
-
-## Links
-[Report an issue](https://github.com/zeresss/LessAirpockets/issues) ◦ [Source code](https://github.com/zeresss/LessAirpockets) ◦ [Donate](https://boosty.to/zeress/donate)
